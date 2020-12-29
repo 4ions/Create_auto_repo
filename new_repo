@@ -1,0 +1,11 @@
+#!/bin/bash
+cd
+python /your/path/where/do/the/clone/create_repo.py --name $1
+echo "
+          ________
+  /\_/\  | Created $1
+ ( o.o ) __ /
+  > ^ < "
+cd 
+cd $FILEPATH$1
+
